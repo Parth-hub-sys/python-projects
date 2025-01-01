@@ -32,7 +32,7 @@ def remove_pdf_password(input_pdf, output_pdf, password):
 # Input parameters
 input_pdf = 'C:/Users/91972/Downloads/EAadhaar_0124120100217620180809172649_20112024213540.pdf'  # Path to the encrypted PDF
 output_pdf = 'AAdharcard.pdf'  # Path to save the decrypted PDF
-password = 'TARA1955'  # Password to decrypt the PDF
+password = ''  # Password to decrypt the PDF
 
 # Remove the password from the PDF
 remove_pdf_password(input_pdf, output_pdf, password)
